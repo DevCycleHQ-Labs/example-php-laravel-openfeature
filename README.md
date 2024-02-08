@@ -32,9 +32,9 @@ When you run the example app and switch your identity between users, you'll be a
 
 ### Development
 
-`php artisan serve --port=8080`
+`php artisan serve --port=8000`
 
-Runs the app in the development mode. Requests may be sent to http://localhost:8080
+Runs the app in the development mode. Requests may be sent to http://localhost:8000
 
 ## Documentation
 
