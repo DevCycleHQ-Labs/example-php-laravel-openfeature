@@ -35,11 +35,11 @@ break;
 }
 
 // Determine the source of the togglebot image. If the "togglebot-wink" flag is true, use the winking image; otherwise, use the default image.
-$togglebot_src = $wink ? '/images/togglebot-wink.png' : '/images/togglebot.png';
+$togglebot_src = $wink ? '/img/togglebot-wink.png' : '/img/togglebot.png';
 
 // If the speed feature flag is set to "surprise", override the togglebot image source with a unicorn image.
 if ($speed === 'surprise') {
-$togglebot_src = '/images/unicorn.svg';
+$togglebot_src = '/img/unicorn.svg';
 }
 
 
